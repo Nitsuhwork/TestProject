@@ -1,0 +1,12 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ToutstTest">
+  <test  name="Testing Features">
+    <classes>
+     
+      <class name="mercurytours.OpenURL"/>
+      <class name="mercurytours.CheckTitle"/>
+       <class name="mercurytours.Login"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

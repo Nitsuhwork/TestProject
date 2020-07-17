@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ToutstTest]">
+  <test thread-count="5" name="Testing Features(failed)">
+    <classes>
+      <class name="mercurytours.CheckTitle">
+        <methods>
+          <include name="title"/>
+        </methods>
+      </class> <!-- mercurytours.CheckTitle -->
+      <class name="mercurytours.Login">
+        <methods>
+          <include name="Dropddown"/>
+          <include name="Login1"/>
+          <include name="Return"/>
+          <include name="Reference"/>
+          <include name="Airline"/>
+          <include name="Depart"/>
+          <include name="setUp"/>
+          <include name="Radio"/>
+        </methods>
+      </class> <!-- mercurytours.Login -->
+    </classes>
+  </test> <!-- Testing Features(failed) -->
+</suite> <!-- Failed suite [ToutstTest] -->
